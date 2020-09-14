@@ -1,0 +1,41 @@
+{
+  "spriteId": {
+    "name": "sprExitU",
+    "path": "sprites/sprExitU/sprExitU.yy",
+  },
+  "solid": false,
+  "visible": false,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "objRoomExit",
+    "path": "objects/objRoomExit/objRoomExit.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"objRoomExitUp","path":"objects/objRoomExitUp/objRoomExitUp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"dir","path":"objects/objRoomExit/objRoomExit.yy",},"objectId":{"name":"objRoomExit","path":"objects/objRoomExit/objRoomExit.yy",},"value":"\"UP\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "Exits",
+    "path": "folders/Objects/Graphics/Exits.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "objRoomExitUp",
+  "tags": [],
+  "resourceType": "GMObject",
+}
