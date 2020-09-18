@@ -28,7 +28,7 @@ ds_grid_destroy(ds_depth_grid);
 */
 //draw_set_color(c_aqua);
 //var tempColour = merge_color(make_color_rgb(132, 240, 200), make_color_rgb(50, 230, 162), );
-draw_sprite_ext(sprSlimeBlank, 0, 50, 50, 1, 1, 0, make_color_rgb(50, 230, 162), 1);
-draw_sprite_ext(Keyboard_Black_W, 0, 50, 50, 1, 1, 0, c_white, 1);;
+//draw_sprite_ext(sprSlimeBlank, 0, 50, 50, 1, 1, 0, make_color_rgb(50, 230, 162), 1);
+//draw_sprite_ext(Keyboard_Black_W, 0, 50, 50, 1, 1, 0, c_white, 1);;
 //draw_sprite(sprSlimeBlank, 0, 50, 50);
 //draw_set_color(c_white);

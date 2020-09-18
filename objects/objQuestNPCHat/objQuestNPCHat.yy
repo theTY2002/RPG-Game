@@ -31,7 +31,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"entityNPC","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"entityActivateScript","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"NewTextBox","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"entityActivateArgs","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"[\"Hello there!\", 1, [\"1:Response A\", \"2:Response B\"]]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityActivateArgs","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"[\"Thanks for getting my hat!\", 1]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Entities",

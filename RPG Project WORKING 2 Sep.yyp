@@ -109,6 +109,7 @@
     {"id":{"name":"sprSlimeHurt","path":"sprites/sprSlimeHurt/sprSlimeHurt.yy",},"order":7,},
     {"id":{"name":"sprSlimeBlank","path":"sprites/sprSlimeBlank/sprSlimeBlank.yy",},"order":4,},
     {"id":{"name":"objControlsPlayerShadow","path":"objects/objControlsPlayerShadow/objControlsPlayerShadow.yy",},"order":6,},
+    {"id":{"name":"sprControlsSign","path":"sprites/sprControlsSign/sprControlsSign.yy",},"order":22,},
     {"id":{"name":"tilesetOutdoors","path":"tilesets/tilesetOutdoors/tilesetOutdoors.yy",},"order":2,},
     {"id":{"name":"sprSlimeDead","path":"sprites/sprSlimeDead/sprSlimeDead.yy",},"order":8,},
     {"id":{"name":"tilesetCave","path":"tilesets/tilesetCave/tilesetCave.yy",},"order":3,},

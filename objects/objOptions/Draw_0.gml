@@ -25,12 +25,16 @@ switch(page)
 		break;
 	case PAGES.ROLL:
 		draw_sprite(sprControlsPlayerRoll, image_index / 6, drawXMiddle, drawYTop);
-		draw_sprite(sprControlsSpaceBar, 0, drawXMiddle, drawYMiddle);
+		draw_sprite_ext(sprControlsSpaceBar, 0, drawXMiddle, drawYMiddle, 0.75, 0.75, 0, c_white, 1);
 		break;
 	case PAGES.INTERACT:
-		draw_sprite(sprControlsPlayerInteract, 0, drawXMiddle, drawYTop);
+		draw_sprite(sprControlsSign, 0, drawXMiddle, drawYTop - 5);
+		draw_sprite_ext(sprControlsPlayerInteract, 0, drawXMiddle, drawYTop + 5, 1, 1, 0, c_white, 0.6);
 		break;
 	case PAGES.INVENTORY:
+		draw_sprite(sprInvBox, 0, drawXMiddle - sprite_get_width(sprInvBox) / 2, drawYTop);
+		draw_sprite(sprInvBox, 0, drawXMiddle + sprite_get_width(sprInvBox) / 2, drawYTop);
+		draw_sprite(sprMushroomRedS, 0, drawXMiddle - sprite_get_width(sprInvBox) / 2, drawYTop);
 		break;
 }
 
