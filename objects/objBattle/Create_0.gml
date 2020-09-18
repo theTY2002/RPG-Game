@@ -5,7 +5,7 @@ event_inherited();
 
 global.gamePaused = true;
 
-uRedFlash = shader_get_uniform(shRedFlash, "flash");
+uWhiteFlash = shader_get_uniform(shWhiteFlash, "flash");
 
 enum BATTLE
 {

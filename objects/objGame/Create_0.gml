@@ -1,6 +1,8 @@
 /// @description Initialise & Globals
 // You can write your code in this editor
 
+testScale = 32/100;
+
 /*
 yee = false;
 show_debug_message(string(yee));
@@ -12,6 +14,7 @@ randomize();
 window_set_cursor(cr_none);
 cursor_sprite = sprCursor;
 
+global.gameStart = false;
 global.gamePaused = false;
 global.gameOver = false;
 global.musicPaused = false;
@@ -87,8 +90,8 @@ enum SPELL
 	HEAL,
 	MAGICDART,
 	MAGICBALL,
-	EXITDUNGEON,
-	RETURNTOLASTINN,
+	//EXITDUNGEON,
+	//RETURNTOLASTINN,
 	LAST
 }
 
@@ -112,19 +115,20 @@ global.spells[SPELL.HEAL][SPELL_STATS.KNOWN] = false;
 global.spells[SPELL.HEAL][SPELL_STATS.LEVELTOLEARN] = 3;
 
 global.spells[SPELL.MAGICDART][SPELL_STATS.NAME] = "MAGIC DART";
-global.spells[SPELL.MAGICDART][SPELL_STATS.MINVALUE] = 4 + global.playerStats[PLAYER_STATS.LEVEL];
-global.spells[SPELL.MAGICDART][SPELL_STATS.MAXVALUE] = 8 + global.playerStats[PLAYER_STATS.LEVEL];
+global.spells[SPELL.MAGICDART][SPELL_STATS.MINVALUE] = 1 + global.playerStats[PLAYER_STATS.LEVEL];
+global.spells[SPELL.MAGICDART][SPELL_STATS.MAXVALUE] = 2 + global.playerStats[PLAYER_STATS.LEVEL];
 global.spells[SPELL.MAGICDART][SPELL_STATS.MPCOST] = 2;
 global.spells[SPELL.MAGICDART][SPELL_STATS.KNOWN] = false;
 global.spells[SPELL.MAGICDART][SPELL_STATS.LEVELTOLEARN] = 4;
 
 global.spells[SPELL.MAGICBALL][SPELL_STATS.NAME] = "MAGIC BALL";
-global.spells[SPELL.MAGICBALL][SPELL_STATS.MINVALUE] = 12 + global.playerStats[PLAYER_STATS.LEVEL];
-global.spells[SPELL.MAGICBALL][SPELL_STATS.MAXVALUE] = 16 + global.playerStats[PLAYER_STATS.LEVEL];
+global.spells[SPELL.MAGICBALL][SPELL_STATS.MINVALUE] = 5 + global.playerStats[PLAYER_STATS.LEVEL];
+global.spells[SPELL.MAGICBALL][SPELL_STATS.MAXVALUE] = 7 + global.playerStats[PLAYER_STATS.LEVEL];
 global.spells[SPELL.MAGICBALL][SPELL_STATS.MPCOST] = 5;
 global.spells[SPELL.MAGICBALL][SPELL_STATS.KNOWN] = false;
 global.spells[SPELL.MAGICBALL][SPELL_STATS.LEVELTOLEARN] = 6;
 
+/*
 global.spells[SPELL.EXITDUNGEON][SPELL_STATS.NAME] = "EXIT";
 global.spells[SPELL.EXITDUNGEON][SPELL_STATS.MINVALUE] = -1;
 global.spells[SPELL.EXITDUNGEON][SPELL_STATS.MAXVALUE] = -1;
@@ -138,6 +142,7 @@ global.spells[SPELL.RETURNTOLASTINN][SPELL_STATS.MAXVALUE] = -1;
 global.spells[SPELL.RETURNTOLASTINN][SPELL_STATS.MPCOST] = 4;
 global.spells[SPELL.RETURNTOLASTINN][SPELL_STATS.KNOWN] = false;
 global.spells[SPELL.RETURNTOLASTINN][SPELL_STATS.LEVELTOLEARN] = 5;
+*/
 
 #endregion
 

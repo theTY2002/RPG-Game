@@ -15,29 +15,35 @@ if keyboard_check_pressed(ord("M"))
 	}
 }
 
-if (room != rmGameOver)
+if (global.gameStart)
 {
-	if (global.battle)
+	if (room != rmGameOver)
 	{
-		if (currentMusic != sBattleMusic)
+		if (global.battle)
 		{
-			StopMusic(currentMusic);
-			currentMusic = sBattleMusic;
+			if (currentMusic != sBattleMusic)
+			{
+				StopMusic(currentMusic);
+				currentMusic = sBattleMusic;
+			}
 		}
+		else
+		{
+			if (currentMusic != sVillageMusic)
+			{
+				StopMusic(currentMusic);
+				currentMusic = sVillageMusic;
+			}
+		}
+
+		PlayMusic(currentMusic);
 	}
 	else
 	{
-		if (currentMusic != sVillageMusic)
-		{
-			StopMusic(currentMusic);
-			currentMusic = sVillageMusic;
-		}
+		StopMusic(currentMusic);
+		PlaySoundEffect(sGameOver, false);
+		//PlayMusic(sGameOver);
 	}
+}
 
-	PlayMusic(currentMusic);
-}
-else
-{
-	StopMusic(currentMusic);
-	PlayMusic(sGameOver);
-}
+

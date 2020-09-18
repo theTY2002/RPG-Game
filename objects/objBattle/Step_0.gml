@@ -72,8 +72,8 @@ if (battle == true)
 							{
 								var damage = CalculateDamage("PLAYER");
 								ds_messages[| 1] = "And hits for " + string(damage) + " damage!";
-								enemyHP-= damage;
-								hitTime = 8.0;
+								enemyHP -= damage;
+								hitTime = 10.0;
 								PlaySoundEffect(sAttack, true);
 							}
 							else

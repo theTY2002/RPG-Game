@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Stat Bars",
-    "path": "folders/Sprites/Graphics_UI/Stat Bars.yy",
+    "path": "folders/Sprites/OLD/Graphics_UI/Stat Bars.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprHealthBarRight",

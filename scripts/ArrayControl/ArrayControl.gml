@@ -1,7 +1,7 @@
-///@arg incrementOne
-///@arg incrementTwo
-///@arg decrementOne
-///@arg decrementTwo
+///@arg incrementKey
+///@arg incrementLetter
+///@arg decrementKey
+///@arg decrementLetter
 ///@arg countVar
 ///@arg array
 function ArrayControl(argument0, argument1, argument2, argument3, argument4, argument5) {

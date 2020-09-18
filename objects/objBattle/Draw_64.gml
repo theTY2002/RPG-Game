@@ -102,6 +102,22 @@ if (room == rmBattle)// battle)
 mx = RESOLUTION_W / 2;
 my = RESOLUTION_H / 2;
 
+if (hitTime >= 0)
+{
+	//shader_set(shRedFlash);
+	//shader_set_uniform_f(uRedFlash, );
+	
+	shader_set(shWhiteFlash);
+	shader_set_uniform_f(uWhiteFlash, hitTime / 8.0);
+	enemySprite = sprSlimeHurt;
+}
+
+else
+{	
+	enemySprite = sprSlimeBlank;
+}
+
+
 if (battle)
 {
 	alpha = min(1, alpha + 0.05);
@@ -113,26 +129,18 @@ if (battle)
 }
 else
 {
+	enemySprite = sprSlimeDead;
 	alpha = max(0, alpha - 0.05);
 	//draw_sprite(enemySprite, image_index / 8, mx, my);
 	
 }
 
+image_blend = enemyColour;
+draw_sprite_ext(enemySprite, image_index / 8, mx, my, 1, 1, 0, image_blend, alpha);
+image_blend = c_white;
 
-if (hitTime >= 0)
-{
-	shader_set(shRedFlash);
-	shader_set_uniform_f(uRedFlash, hitTime / 8.0);
-	image_blend = enemyColour;
-	draw_sprite_ext(enemySprite, image_index / 8, mx, my, 1, 1, 0, image_blend, alpha);
-	image_blend = c_white;
-}
-else
-{	
-	image_blend = enemyColour;
-	draw_sprite_ext(enemySprite, image_index / 8, mx, my, 1, 1, 0, image_blend, alpha);
-	image_blend = c_white;
-}
+
+
 
 if (shader_current() != -1)
 {

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Battle",
-    "path": "folders/Sprites/Graphics_UI/Battle.yy",
+    "path": "folders/Sprites/OLD/Graphics_UI/Battle.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprArrow",

@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Cursor",
-    "path": "folders/Sprites/Graphics_UI/Cursor.yy",
+    "path": "folders/Sprites/OLD/Graphics_UI/Cursor.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprCursorClick",

@@ -3,8 +3,8 @@
 function StopMusic(music){
 	if (audio_is_playing(music))
 	{
-		audio_stop_sound(music);
-		//audio_sound_gain(music, 0, 1000);
+		//audio_stop_sound(music);
+		audio_sound_gain(music, 0, 1000);
 		//show_debug_message(string(audio_sound_get_gain(music)));
 		
 		//audio_sound_gain(music, 1, 3000)

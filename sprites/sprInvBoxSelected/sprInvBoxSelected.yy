@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Inventory",
-    "path": "folders/Sprites/Graphics_UI/Inventory.yy",
+    "path": "folders/Sprites/OLD/Graphics_UI/Inventory.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprInvBoxSelected",
