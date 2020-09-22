@@ -6,13 +6,10 @@ if (!global.gamePaused)
 	depth = -bbox_bottom;
 	if (lifted) && (instance_exists(objPlayer))
 	{
-		if (objPlayer.sprite_index != sprPlayerLift)
-		{
-			x = objPlayer.x;
-			y = objPlayer.y;
-			z = objPlayer.z + LIFTED_Z;
-			depth = objPlayer.depth - 1;
-		}
+		x = objPlayer.x;
+		y = objPlayer.y;
+		z = objPlayer.z + LIFTED_Z;
+		depth = objPlayer.depth - 1;
 	}
 	
 	if (!lifted)

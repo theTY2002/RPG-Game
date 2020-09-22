@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-with (parentEnemy)
+if (DEBUG)
 {
-	instance_destroy();
+	with (parentEnemy)
+	{
+		instance_destroy();
+	}
 }

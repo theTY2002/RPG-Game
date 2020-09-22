@@ -31,6 +31,9 @@
     {"propertyId":{"name":"entityHitScript","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"EntityHitSolid","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"entityCollision","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"entityThrowSpeed","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityFragmentCount","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityFragment","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"objFragPot","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityThrowBreak","path":"objects/parentEntity/parentEntity.yy",},"objectId":{"name":"parentEntity","path":"objects/parentEntity/parentEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Entities",

@@ -5,6 +5,4 @@ function StartBattle() {
 		instance_create_layer(x, y, "Instances", objBattle);
 	}
 	//show_debug_message("BATTLE");
-
-
 }

@@ -1,5 +1,11 @@
 function BattleTransition() {
 	global.gamePaused = true;
+	
+	if (global.iLifted != noone)
+	{
+		instance_destroy(global.iLifted);
+		global.iLifted = noone;
+	}
 
 	/*
 	switch(id.object_index)
