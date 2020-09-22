@@ -20,6 +20,4 @@ function PlayerThrow() {
 
 	PlayerActOutAnimation(sprPlayerLift);
 	global.iLifted = noone;
-
-
 }

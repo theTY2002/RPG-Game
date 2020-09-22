@@ -353,6 +353,7 @@
     {"folderPath":"folders/Sequences.yy","order":13,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Battle.yy","order":6,"resourceVersion":"1.0","name":"Battle","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Sounds & Music.yy","order":7,"resourceVersion":"1.0","name":"Sounds & Music","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/OLD/Graphics_UI.yy","order":0,"resourceVersion":"1.0","name":"Graphics_UI","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
